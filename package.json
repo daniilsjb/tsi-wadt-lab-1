@@ -1,0 +1,12 @@
+{
+  "name": "tsi-wadt-lab-1",
+  "version": "1.0.0",
+  "author": "Daniils Buts",
+  "description": "Laboratory Work #1 for the Web Application Development Tools course at TSI and UWE.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Schoolbell&display=swap");
+
+$radius: 25px;
+$content-width: 800px;
+
+$color-text-dimmed: #6b7280;
+$color-shadow: rgba(0, 0, 0, 0.35);
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.member-name {
+  margin-bottom: 8px;
+  color: $color-text-dimmed;
+  font-size: large;
+  font-style: italic;
+  font-family: "Schoolbell", cursive;
+}
+
+p {
+  hyphens: auto;
+}
+
+.card-img {
+  border-radius: $radius $radius 0 0;
+}
+
+img {
+  max-width: $content-width;
+  filter: grayscale(100%);
+}
+
+#tour {
+  max-width: $content-width;
+  margin: auto;
+}
+
+button {
+  box-shadow: $color-shadow 0 5px 10px;
+}
+
+.carousel {
+  margin: auto;
+  max-width: $content-width;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.slide {
+  display: inline-block;
+}

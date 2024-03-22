@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Schoolbell&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.member-name {
+  margin-bottom: 8px;
+  color: #6b7280;
+  font-size: large;
+  font-style: italic;
+  font-family: "Schoolbell", cursive;
+}
+
+p {
+  hyphens: auto;
+}
+
+.card-img {
+  border-radius: 25px 25px 0 0;
+}
+
+img {
+  max-width: 800px;
+  filter: grayscale(100%);
+}
+
+#tour {
+  max-width: 800px;
+  margin: auto;
+}
+
+button {
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 10px;
+}
+
+.carousel {
+  margin: auto;
+  max-width: 800px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.slide {
+  display: inline-block;
+}
